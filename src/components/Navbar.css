@@ -1,0 +1,72 @@
+.nav li {
+  list-style: none;
+  color: white;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user {
+  cursor: pointer;
+}
+.nav {
+  z-index: 1;
+  color: white;
+  padding: 0.2rem 2rem 0.2rem 2rem;
+  background-color: rgb(87, 87, 246);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcome-card {
+  min-width: 12rem;
+  z-index: 1000;
+  font-weight: 400;
+  animation: show-navbar-dropdown 0.25s ease forwards;
+  pointer-events: auto;
+  opacity: 1;
+  text-align: left;
+  color: #525f7f;
+  border: 0 solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.4375rem;
+  background-color: #fff;
+  background-clip: padding-box;
+  box-shadow: 0 50px 100px rgb(50 50 93 / 10%), 0 15px 35px rgb(50 50 93 / 15%),
+    0 5px 15px rgb(0 0 0 / 10%);
+  top: -1rem;
+  right: 1rem;
+  position: relative;
+  float: right;
+  padding: 0.4rem;
+  background-color: #fff;
+}
+.dropdown-header {
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+.wel {
+  display: block;
+  clear: both;
+  width: 100%;
+  font-size: 0.625rem;
+}
+.divider {
+  overflow: hidden;
+  height: 0;
+  margin: 0.5rem 0;
+  border-top: 1px solid #e9ecef;
+}
+.logout {
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  border: 0;
+  background-color: transparent;
+  color: #212529;
+}

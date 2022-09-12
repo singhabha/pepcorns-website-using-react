@@ -1,0 +1,144 @@
+.details {
+  font-family: Open Sans, sans-serif;
+  line-height: 1.5;
+}
+span {
+  font-weight: bolder;
+  text-align: left;
+}
+.detail-title {
+  font-size: 0.875rem;
+  color: #212529;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.5;
+  position: relative;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+}
+.cofounders {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.pic img {
+  border-radius: 100%;
+}
+.name {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 1.0625rem;
+  text-align: center;
+  color: #32325d;
+}
+.role {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.contact {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-links {
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+}
+.twitter {
+  color: #1da1f2;
+  background-color: #fff;
+  border-color: #1da1f2;
+
+  line-height: 2.5;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+.faceb {
+  padding: 0.8rem;
+  border-color: #3b5999;
+  background-color: #3b5999;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+.ln {
+  padding: 0.8rem;
+  color: #fff;
+  border-color: #ea4c89;
+  background-color: #ea4c89;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+.use {
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  margin-left: 2rem;
+}
+.start {
+  color: #8898aa;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.finger-icon {
+  padding-left: 1rem;
+  color: #ea4c89;
+  margin-left: 10rem;
+  border-radius: 50%;
+}
+.target-icon {
+  color: orangered;
+  padding-left: 1rem;
+  margin-left: 10rem;
+}
+.card3 {
+  display: flex;
+  margin: 1.5rem 0;
+}
+.date {
+  margin-top: -2.5rem;
+}
+.date-p {
+  margin-top: -0.6rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #32325d;
+}
+.success {
+  color: #2dce89;
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+.deadline-p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #525f7f;
+  margin-top: -0.5rem;
+}
+.c2 p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #525f7f;
+}
+.c2 {
+  margin-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.ques {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #525f7f;
+  margin-bottom: 0.5rem;
+}
+.card4 h3 {
+  line-height: 1.5;
+  font-weight: 600;
+  color: #32325d;
+  margin-top: 0;
+  font-size: 1.0625rem;
+}

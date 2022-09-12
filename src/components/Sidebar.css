@@ -1,0 +1,117 @@
+.cards {
+  width: 80%;
+  margin-left: 0.8rem;
+}
+.card1 {
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  margin-left: 2rem;
+}
+.card2 {
+  margin-top: 1.5rem;
+}
+.min-price {
+  letter-spacing: 0.0625rem;
+  color: #5e72e4;
+  font-size: 2.1875rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.total-inv {
+  font-size: 80%;
+  font-weight: 400;
+  text-align: left;
+  color: #525f7f;
+  line-height: 1.5;
+  padding: 0.6rem 0;
+}
+.price {
+  font-size: 1.6275rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.total-in {
+  text-align: center;
+  color: #8898aa;
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.inv-info {
+  color: #8898aa;
+  text-align: left;
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.card-info {
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+}
+.card-info h1 {
+  font-size: 2.4875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  color: #32325d;
+}
+.card-info p {
+  font-size: 80%;
+  font-weight: 400;
+}
+.red-btn button {
+  border: 1px solid #f5365c;
+  border-radius: 0.2rem;
+  margin: 0.2rem;
+  background-color: #f5365c;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.625rem 3.25rem;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+.money {
+  width: 100%;
+}
+.money p {
+  display: inline;
+  padding: 0.2rem;
+}
+.rs {
+  font-size: 2.75rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #525f7f;
+}
+.list p {
+  font-size: 0.875rem;
+  padding-left: 0.5rem;
+  color: #8898aa;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Open Sans, sans-serif;
+  word-wrap: break-word;
+}
+.btn-invest button {
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.625rem 1.25rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #fff;
+  border-color: #5e72e4;
+  background-color: #5e72e4;
+  opacity: 0.65;
+  box-shadow: none;
+  font-size: 0.875rem;
+  position: relative;
+  transition: all 0.15s ease;
+  letter-spacing: 0.025em;
+  text-transform: none;
+  will-change: transform;
+  width: 100%;
+  margin-bottom: 1rem;
+}

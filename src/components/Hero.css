@@ -1,0 +1,126 @@
+.hero {
+  margin-top: -1rem;
+}
+.btn {
+  margin: 2rem;
+  padding: 0.4rem;
+  font-size: 0.875rem;
+  position: relative;
+  transition: all 0.15s ease;
+  line-height: 1.5;
+  letter-spacing: 0.025em;
+  text-transform: none;
+  will-change: transform;
+}
+.blue-btn {
+  cursor: pointer;
+  color: #5e72e4;
+  border-color: #5e72e4;
+  background-color: transparent;
+  background-image: none;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.2rem;
+  margin: 0.2rem;
+}
+.blue-btn:hover {
+  color: #fff;
+  background-color: #5e72e4;
+}
+.red-btn button {
+  cursor: pointer;
+  border: 1px solid #f5365c;
+  border-radius: 0.2rem;
+  margin: 0.2rem;
+  background-color: #f5365c;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.5;
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+.logo img {
+  width: 5rem;
+  border-radius: 100%;
+  margin: 2.2rem;
+}
+.banner {
+  display: flex;
+  margin-top: -2rem;
+}
+.address {
+  font-size: 0.875rem;
+  color: #8898aa;
+  font-weight: 300;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+.title {
+  font-family: Open Sans, sans-serif;
+  display: block;
+  color: #525f7f;
+}
+.banner-title {
+  font-size: 2.1875rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.email {
+  font-weight: 400;
+  font-size: 60%;
+  margin: 0;
+  text-align: left;
+}
+.title-detail {
+  font-weight: 400;
+  font-size: 0.8125rem;
+  width: 40vw;
+}
+.icons {
+  color: #5e72e4;
+  display: flex;
+  margin: 2rem 4rem;
+  font-size: 90%;
+  font-weight: 400;
+  padding-left: 4rem;
+  width: 30vw;
+}
+.follow {
+  padding: 1rem;
+  cursor: pointer;
+}
+.share {
+  padding: 1rem;
+  cursor: pointer;
+}
+.row {
+  display: flex;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  margin-right: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+}
+.row-ul {
+  margin-left: 3rem;
+}
+.badge {
+  color: rgb(0, 0, 0);
+  font-size: 66%;
+  font-weight: 600;
+  line-height: 1;
+  display: inline-block;
+  padding: 0.35rem 0.375rem;
+  text-align: center;
+  vertical-align: baseline;
+  white-space: nowrap;
+  border-radius: 0.375rem;
+}
+.badge-gen {
+  background-color: rgb(251, 220, 218);
+}
+.badge-mob {
+  background-color: rgb(250, 249, 255);
+}

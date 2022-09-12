@@ -1,0 +1,110 @@
+.section1 {
+  display: flex;
+}
+.left {
+  width: 58vw;
+}
+.video-title {
+  margin: 0.75rem 0;
+  color: #32325d;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.video-title a:hover {
+  color: #5e72e4;
+}
+.card {
+  background-color: black;
+  width: 100%;
+}
+.bg-dark {
+  background-color: #212529;
+  width: 48rem;
+  height: 25.5rem;
+  border-radius: 4px;
+  position: absolute;
+}
+#bg-img {
+  white-space: normal;
+  background-image: url(https://i.ytimg.com/vi_webp/biGcDeB2PbQ/maxresdefault.webp);
+  background-repeat: no-repeat;
+  width: 50%;
+  background-size: 44rem 25rem;
+  height: 70%;
+  position: absolute;
+}
+.yt-heading {
+  display: flex;
+}
+.yt-title-logo img {
+  position: relative;
+  flex-shrink: 0;
+  margin: 5px;
+  margin-left: 1rem;
+  padding: 1rem;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  border-radius: 100%;
+}
+.yt-title-text {
+  position: relative;
+  font: 12px Roboto, Arial, sans-serif;
+  font-size: 18px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: -10px;
+  padding: 10px;
+  color: #fff;
+}
+.copy-icon {
+  position: relative;
+  color: white;
+}
+.copy:hover {
+  padding: 2px;
+  border-radius: 4px;
+  background-color: black;
+}
+.yt-icon {
+  position: relative;
+  color: red;
+  left: 50%;
+}
+.yt {
+  margin: 6.2rem 0rem 0rem -4rem;
+  z-index: 63;
+}
+.yt-icon BsYoutube {
+  padding-left: 4rem;
+}
+.footer {
+  position: relative;
+  width: 45rem;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 9.2rem;
+  font-size: 80%;
+  font-weight: 400;
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+.text p {
+  color: #5e72e4;
+}
+.social-links {
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+}
+.insta {
+  color: #e1306c;
+  padding: 0.4rem;
+}
+.ytube {
+  color: red;
+  padding: 0.4rem;
+}
